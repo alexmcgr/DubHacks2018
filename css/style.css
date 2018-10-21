@@ -1,7 +1,5 @@
 
 body {
-    background-color: lightgreen;
-    background-size: 100% 200%;
     font-family: 'Roboto Mono', monospace;
 }
 
@@ -34,6 +32,9 @@ header {
 }
 
 .header-logo {
+  position: absolute;
+  top: 5px;
+  left: 10px;
   height: 70px;
   width: auto;
 }
@@ -51,14 +52,16 @@ header {
 }
 
 .btn-group button {
-    background-color: #6466FF; /* Green background */
-    border: 1px solid green; /* Green border */
-    color: white; /* White text */
-    padding: 50px 24px; /* Some padding */
-    cursor: pointer; /* Pointer/hand icon */
-    width: 75%; /* Set a width if needed */
-    display: block; /* Make the buttons appear below each other */
-    margin:auto;
+  background-color: #000000a6;
+  border: 1px solid white;
+  border-radius: 10px;
+  color: white;
+  padding: 25px;
+  cursor: pointer;
+  width: 75%;
+  max-width: 50%;
+  display: block;
+  margin: auto;
 }
 
 .btn-group button:not(:last-child) {
