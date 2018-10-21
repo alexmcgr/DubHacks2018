@@ -1,14 +1,35 @@
 // Initialize and add the map
 function initMap() {
 // The location of Uluru
-var uluru = {lat: 47.6565, lng: -122.31};
+var Odegaard = {lat: 47.6565, lng: -122.31};
 // The map, centered at Uluru
 var map = new google.maps.Map(
-  document.getElementById('map'), {zoom: 17, center: uluru});
+  document.getElementById('map'), {zoom: 17, center: Odegaard});
 // The marker, positioned at Uluru
-var marker = new google.maps.Marker({position: uluru, map: map});
+var marker = new google.maps.Marker({position: Odegaard, map: map});
 }
 
+// Initialize and add the map
+function initMap2() {
+// The location of Uluru
+var csBuilding = {lat: 47.653401, lng: -122.305957};
+// The map, centered at Uluru
+var map = new google.maps.Map(
+  document.getElementById('map'), {zoom: 17, center: csBuilding});
+// The marker, positioned at Uluru
+var marker = new google.maps.Marker({position: csBuilding, map: map});
+}
+
+// Initialize and add the map
+function initMap3() {
+// The location of Uluru
+var imaField = {lat: 47.654503, lng: -122.300673};
+// The map, centered at Uluru
+var map = new google.maps.Map(
+  document.getElementById('map'), {zoom: 17, center: imaField});
+// The marker, positioned at Uluru
+var marker = new google.maps.Marker({position: imaField, map: map});
+}
 
 (function() {
 let info = ["Zach Pruitt", "Math 308", "Odegaard Library", "Math 308 Study Sesh"];
