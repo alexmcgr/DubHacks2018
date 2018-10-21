@@ -1,6 +1,6 @@
 
 body {
-    background-color: green;
+    background-color: lightgreen;
     background-size: 100% 200%;
     font-family: 'Roboto Mono', monospace;
 }
@@ -28,7 +28,7 @@ body {
 }
 
 .btn-group button {
-    background-color: #4CAF50; /* Green background */
+    background-color: #6466FF; /* Green background */
     border: 1px solid green; /* Green border */
     color: white; /* White text */
     padding: 10px 24px; /* Some padding */
@@ -43,7 +43,7 @@ body {
 
 /* Add a background color on hover */
 .btn-group button:hover {
-    background-color: #3e8e41;
+    background-color: #ed478e;
 }
 p {
   margin-top: 15px;
