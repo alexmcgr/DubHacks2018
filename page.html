@@ -5,68 +5,28 @@
   <head lang ="en">
     <title>title</title>
     <Link href="css/poop.css" type="text/css" rel="stylesheet" />
-
+    <script type="text/javascript" src="./js/practice.js"></script>
   </head>
 
 
   <body background="images/dolphin.jpg">
 
-  <div class="row" id="row1">
-    <div class="column" id="column1">
-      <p id="name">Name: Zach Pruitt</p>
-      <p id="class">Class: <x>Psych 101</x></p>
-      <p id="goal">Goal: <x>To complete all of the homework ever.</x> </p>
-    </div>
-    <div class="column" id="column2">
-      <p id="location">Location</p>
-      <style>
-        /* Set the size of the div element that contains the map */
-        #map {
-          height: 400px;  /* The height is 400 pixels */
-          width: 100%;  /* The width is the width of the web page */
-         }
-      </style>
-    </head>
-    <body>
-      <h3>My Google Maps Demo</h3>
-      <!--The div element for the map -->
-      <div id="map"></div>
-      <script>
-  // Initialize and add the map
-  function initMap() {
-    // The location of Uluru
-    var uluru = {lat: -25.344, lng: 131.036};
-    // The map, centered at Uluru
-    var map = new google.maps.Map(
-        document.getElementById('map'), {zoom: 4, center: uluru});
-    // The marker, positioned at Uluru
-    var marker = new google.maps.Marker({position: uluru, map: map});
-  }
-      </script>
-      <script async defer
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBrkVByEc-JqJVAaBslzkQRLb7K3TOQBy4&callback=initMap">
-      </script>
-<!--      <a target="_blank" href="seahorse.jpg">
-        <img src="images/seahorse.jpg" alt="Sea Horse" id="locationMap">
-      </a> -->
-    </div>
-  </div>
-<!--    <div id="left">
-      <p id="title">Title</p>
+    <div class="row" id="row1">
 
-      <p id="name">Name</p>
+      <div class="column" id="column1">
+        <p id="name">Name: Zach Pruitt</p>
+        <p id="class">Class: <x>Psych 101</x></p>
+        <p id="goal">Goal: <x>To complete all of the homework ever.</x> </p>
+      </div>
 
-      <p id="aval">Avaliability</p>
-      <p id="TOE">Time of event</p>
-      <p id="description">Full description</p>
+      <div class="column" id="column2">
+        <p id="location">Location</p>
+          <script async defer
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBrkVByEc-JqJVAaBslzkQRLb7K3TOQBy4&callback=initMap">
+          </script>
+      </div>
+
     </div>
-
-    <div id="right">
-      <p id="location">Location</p>
-    </div> -->
 
   </body>
-
-
-
 </html>
