@@ -1,14 +1,16 @@
-body {
-    background-image: url("background.jpg");
-    font-family: 'Roboto Mono', monospace;
 
+body {
+    background-size: 100% 200%;
+    font-family: 'Roboto Mono', monospace;
 }
 
-.column {
+  .column {
     float: left;
     width: 50%;
+  }
 }
 
+}
 #title {
   text-align: center;
   font-weight: 900;
@@ -19,9 +21,28 @@ body {
 
 }
 
+.btn-group button {
+    background-color: #4CAF50; /* Green background */
+    border: 1px solid green; /* Green border */
+    color: white; /* White text */
+    padding: 10px 24px; /* Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    width: 50%; /* Set a width if needed */
+    display: block; /* Make the buttons appear below each other */
+}
+
+.btn-group button:not(:last-child) {
+    border-bottom: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.btn-group button:hover {
+    background-color: #3e8e41;
+}
 p {
   margin-top: 15px;
   font-size: 40px;
+
 }
 
 x {
@@ -52,10 +73,4 @@ h2 {
   font-size: 65px;
   margin-top: 0px;
   margin-bottom: 15px;
-}
-#description {
-  font-size: 23.26969px;
-  margin-top: 20px;
-  width: 40%;
-
 }
