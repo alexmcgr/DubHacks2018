@@ -35,7 +35,9 @@ x {
   height: 350px;
   width: WIDTH;
 }
-
+.delay {
+  animation-delay: 10s;
+}
 img {
     border: 1px solid #ddd;
     border-radius: 4px;
