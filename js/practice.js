@@ -11,7 +11,7 @@ var marker = new google.maps.Marker({position: uluru, map: map});
 
 
 (function() {
-let info = ["toma", "toma", "toma"];
+let info = ["Zach Pruitt", "Math 308", "Working through practice midterms"];
 
 window.onload = function() {
   document.getElementById("username").innerText = info[0];
