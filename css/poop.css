@@ -1,16 +1,14 @@
 body {
-    background-image: url("b.jpg");
+    background-image: url("background.jpg");
     font-family: 'Roboto Mono', monospace;
 
 }
 
-  .column {
+.column {
     float: left;
     width: 50%;
-  }
 }
 
-}
 #title {
   text-align: center;
   font-weight: 900;
@@ -20,10 +18,10 @@ body {
 
 
 }
+
 p {
   margin-top: 15px;
   font-size: 40px;
-
 }
 
 x {
