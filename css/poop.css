@@ -1,12 +1,7 @@
-<<<<<<< HEAD
-@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
-
-
-=======
->>>>>>> e664117c4d4bbffdedcfd38d4723261c9ee04f46
 body {
-    background-size: 100% 200%;
+    background-image: url("images/background pic.jpg");
     font-family: 'Roboto Mono', monospace;
+
 }
 
   .column {
@@ -57,4 +52,10 @@ h2 {
   font-size: 65px;
   margin-top: 0px;
   margin-bottom: 15px;
+}
+#description {
+  font-size: 23.26969px;
+  margin-top: 20px;
+  width: 40%;
+
 }
