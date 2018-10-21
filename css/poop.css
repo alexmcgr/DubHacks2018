@@ -1,6 +1,9 @@
+<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
 
 
+=======
+>>>>>>> e664117c4d4bbffdedcfd38d4723261c9ee04f46
 body {
     background-size: 100% 200%;
     font-family: 'Roboto Mono', monospace;
@@ -35,7 +38,7 @@ x {
 
 #map{
   height: 350px;
-  width: 500px;
+  width: WIDTH;
 }
 
 img {
