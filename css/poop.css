@@ -47,7 +47,8 @@ body {
 }
 p {
   margin-top: 15px;
-  font-size: 50px;
+  font-size: 45px;
+  margin-bottom: 20px;
 
 }
 
@@ -82,5 +83,5 @@ h2 {
 }
 #description {
   font-size: 40px;
-  width: 70%;
+  margin-top: 20px;
 }
