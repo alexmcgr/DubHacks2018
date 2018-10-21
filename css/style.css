@@ -32,6 +32,9 @@ header {
 }
 
 .header-logo {
+  position: absolute;
+  top: 5px;
+  left: 10px;
   height: 70px;
   width: auto;
 }
