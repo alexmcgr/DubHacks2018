@@ -1,13 +1,13 @@
 <!--  hello -->
-<script>
+<script type="text/javascript">
   var images = ['dolphin.jpg', 'shark.jpg']
-
   var randomItem = images[Math.floor(Math.random()*images.length)]
+  document.getElementById("bground").innerHTML = images[0];
 </script>
 
 
 <!DOCTYPE html>
- 
+
 <html>
   <head lang ="en">
     <title>title</title>
@@ -15,8 +15,8 @@
 
   </head>
 
- 
-  <body background='randomItem'>
+
+  <body background="dolhpin.jpg">
 
   <div class="row" id="row1">
     <div class="column" id="column1">
