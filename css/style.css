@@ -13,9 +13,15 @@ body {
   z-index: -10;
 }
 
+.btn-group {
+  width: 50%;
+  margin: auto;
+  margin-top: 50px;
+}
+
 .column {
-    float: left;
-    width: 50%;
+  float: left;
+  width: 50%;
 }
 
 header {
@@ -58,10 +64,10 @@ header {
   color: white;
   padding: 25px;
   cursor: pointer;
-  width: 75%;
-  max-width: 50%;
+  width: 100%;
   display: block;
   margin: auto;
+  margin-top: 20px;
 }
 
 .btn-group button:not(:last-child) {
@@ -113,4 +119,8 @@ h2 {
 
 .tinted {
   filter: brightness(70%);
+}
+
+.tinted2 {
+  filter: brightness(20%);
 }
