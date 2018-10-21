@@ -25,6 +25,12 @@ body {
   width: 50%;
 }
 
+#create-event-btn {
+  position: absolute;
+  height: 80px;
+  right: 20px;
+}
+
 header {
   position: fixed;
   top: 0;
