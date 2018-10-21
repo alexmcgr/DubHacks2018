@@ -20,6 +20,15 @@ body {
     width: 50%;
 }
 
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 80px;
+  background-color: white;
+}
+
 #title {
   text-align: center;
   font-weight: 900;
