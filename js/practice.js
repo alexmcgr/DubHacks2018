@@ -20,6 +20,16 @@ var map = new google.maps.Map(
 var marker = new google.maps.Marker({position: csBuilding, map: map});
 }
 
+// Initialize and add the map
+function initMap3() {
+// The location of Uluru
+var imaField = {lat: 47.654503, lng: -122.300673};
+// The map, centered at Uluru
+var map = new google.maps.Map(
+  document.getElementById('map'), {zoom: 17, center: imaField});
+// The marker, positioned at Uluru
+var marker = new google.maps.Marker({position: imaField, map: map});
+}
 
 (function() {
 let info = ["Zach Pruitt", "Math 308", "Odegaard Library", "Math 308 Study Sesh"];
