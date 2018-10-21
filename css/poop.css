@@ -1,8 +1,12 @@
+<<<<<<< HEAD
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
 
+
+=======
+>>>>>>> e664117c4d4bbffdedcfd38d4723261c9ee04f46
 body {
-    background: url("dolphin.jpg")
-    background-repeat: no-repeat;
     background-size: 100% 200%;
+    font-family: 'Roboto Mono', monospace;
 }
 
   .column {
@@ -34,8 +38,7 @@ x {
 
 #map{
   height: 350px;
-  width: 500px;
-
+  width: WIDTH;
 }
 .delay {
   animation-delay: 10s;
@@ -51,21 +54,9 @@ img:hover {
     box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
 }
 
-.btn-group button {
-    background-color: #ed478e;
-    border: 1px solid black;
-    color: white; /* White text */
-    padding: 10px 24px; /* Some padding */
-    cursor: pointer; /* Pointer/hand icon */
-    width: 50%; /* Set a width if needed */
-    display: block; /* Make the buttons appear below each other */
-}
-
-.btn-group button:not(:last-child) {
-    border-bottom: none;
-}
-
-
-.btn-group button:hover {
-    background-color: #6D2142;
+h2 {
+  text-align: center;
+  font-size: 65px;
+  margin-top: 0px;
+  margin-bottom: 15px;
 }
