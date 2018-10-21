@@ -5,25 +5,20 @@ body {
     font-family: 'Roboto Mono', monospace;
 }
 
-  .column {
+.column {
     float: left;
     width: 50%;
-  }
 }
 
-}
 #title {
   text-align: center;
   font-weight: 900;
   font-size: 80px;
   margin-top: 0px;
   margin-bottom: 15px;
-
-
 }
 
 .delay {
-
   animation-delay: 10s;
 }
 
@@ -42,29 +37,25 @@ body {
     border-bottom: none; /* Prevent double borders */
 }
 
-/* Add a background color on hover */
 .btn-group button:hover {
     background-color: #ed478e;
 }
+
 p {
   margin-top: 15px;
   font-size: 45px;
   margin-bottom: 20px;
-
-}
-
-x {
-  font-size: 30px;
-
 }
 
 #map{
   height: 350px;
   width: WIDTH;
 }
+
 .delay {
   animation-delay: 10s;
 }
+
 img {
     border: 1px solid #ddd;
     border-radius: 4px;
@@ -82,6 +73,7 @@ h2 {
   margin-top: 0px;
   margin-bottom: 15px;
 }
+
 #description {
   font-size: 40px;
   margin-top: 20px;
