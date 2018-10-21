@@ -1,9 +1,8 @@
 
 body {
-    background: url(images/starfish.jpg)
     background-repeat: no-repeat;
     background-size: 100% 200%;
-
+    opacity: .2;
 }
 
   .column {
