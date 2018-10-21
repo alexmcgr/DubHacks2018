@@ -11,11 +11,12 @@ var marker = new google.maps.Marker({position: uluru, map: map});
 
 
 (function() {
-let info = ["Zach Pruitt", "Math 308", "Odegaard Library"];
+let info = ["Zach Pruitt", "Math 308", "Odegaard Library", "Math 308 Study Sesh"];
 
 window.onload = function() {
   document.getElementById("username").innerText = info[0];
   document.getElementById("class").innerText = info[1];
   document.getElementById("location").innerText = info[2];
+  document.getElementById("title").innerText = info[3];
 }
 })();
