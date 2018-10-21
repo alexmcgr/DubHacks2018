@@ -6,13 +6,9 @@
     for (let i = 0; i < buttons.length; i++) {
       buttons[i].onclick = function() {
         let name2 = buttons[i].innerText
-        console.log(name2);
           popup(name2);
       };
     }
-    document.getElementById("create-event-btn").onclick = function() {
-      userInformation()
-    };
   };
 
   function userInformation() {
