@@ -109,5 +109,5 @@ h2 {
 }
 
 .tinted {
-  opacity: 0.8;
+  filter: brightness(70%);
 }
